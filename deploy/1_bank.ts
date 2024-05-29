@@ -3,6 +3,8 @@ import { DeployFunction } from 'hardhat-deploy/types';
 import { ethers } from 'hardhat';
 import { Bank } from '../src/types';
 
+
+// Bank contract deployment //
 const deployBank: DeployFunction = async function (
   hre: HardhatRuntimeEnvironment,
 ) {
