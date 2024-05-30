@@ -12,6 +12,7 @@ import "./interfaces/IArmoryNft.sol";
 import "./interfaces/IBank.sol";
 import "./interfaces/ICryptoClysm.sol";
 
+// CryptoClysm contract //
 contract CryptoClysm is ICryptoClysm, OwnableUpgradeable {
     using Level for LevelStats[];
     using UserLibrary for UserStats;
