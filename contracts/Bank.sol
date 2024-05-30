@@ -8,6 +8,7 @@ import "./interfaces/IBank.sol";
 import "./interfaces/ICryptoClysm.sol";
 import "./interfaces/IStakingRewards.sol";
 
+// IBank contract //
 contract Bank is OwnableUpgradeable, IBank {
     using SafeERC20Upgradeable for IERC20Upgradeable;
 

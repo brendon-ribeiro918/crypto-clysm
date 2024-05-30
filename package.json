@@ -1,7 +1,7 @@
 {
   "name": "crypto-clysm",
   "version": "1.0.0",
-  "description": "Cryptoclysm",
+  "description": "cryptoclysm",
   "main": "index.js",
   "scripts": {
     "compile": "npx hardhat compile",
